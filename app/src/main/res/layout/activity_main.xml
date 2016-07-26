@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kasako.porker.MainActivity"
+    android:background="@mipmap/bg_haikei_kai">
+
+    <Button
+        android:layout_width="234dp"
+        android:layout_height="60dp"
+        android:id="@+id/button"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="70dp"
+        android:background="@mipmap/btn_tutorial_kai" />
+
+    <Button
+        android:layout_width="234dp"
+        android:layout_height="70dp"
+        android:id="@+id/button2"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="70dp"
+        android:background="@mipmap/btn_make_room_kai" />
+
+    <Button
+        android:layout_width="234dp"
+        android:layout_height="70dp"
+        android:id="@+id/button3"
+        android:layout_marginTop="375dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:background="@mipmap/btn_in_room_kai" />
+
+</RelativeLayout>
